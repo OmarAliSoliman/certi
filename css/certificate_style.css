@@ -235,6 +235,21 @@
 
 
 @media only screen
+and (min-width: 1600px)
+and (max-width: 2560px){
+  .certifate1_container .certificate_logo{
+    margin-left: 35% ;
+  }
+  .certifate1_container .certificate_text{
+    margin-left: 12.9% ;
+    margin-top: 20px ;
+  }
+  .certifate1_container .certificate_title{
+    margin-top: -110px;
+  }
+}
+
+@media only screen
 and (min-width: 2560px)
 and (max-width: 4000px){
   .certifate1_container .certificate_logo{
