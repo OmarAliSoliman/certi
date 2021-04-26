@@ -108,7 +108,17 @@
   margin-top: 45px;
   color: #1c4161;
   margin-left: 2.1rem;
+  position: relative;
+  /* display: inline-block; */
 }
+
+.certifate1_container .sig-img{
+  position: absolute;
+  top: -50px;
+  left: 55px;
+  max-height: 150px !important;
+}
+
 .certifate1_container .Signature p {
   margin-top: 0.75rem;
   margin-bottom: 1.5rem;
